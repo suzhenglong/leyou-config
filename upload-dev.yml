@@ -30,11 +30,3 @@ fdfs:
     height: 60
   tracker-list: # tracker地址
     - 192.168.121.188:22122
-
-ly:
-  upload:
-    baseUrl: http://image.leyou.com/
-    allowTypes:
-      - image/png
-      - image/jpeg
-      - image/jpg
