@@ -6,12 +6,12 @@ spring:
   thymeleaf:
     cache: false
   rabbitmq:
-    host: 192.168.19.121
+    host: 192.168.121.188
     username: /leyou
     password: leyou
     virtual-host: /leyou
   redis:
-    host: 192.168.19.121
+    host: 192.168.121.188
 eureka:
   client:
     service-url:
@@ -37,3 +37,8 @@ hystrix:
         isolation:
           thread:
             timeoutInMillisecond: 10000 # 熔断超时时长：10000ms
+
+
+ly:
+  thymeleaf:
+    destPath: D:\Development\iBase4J-tools\nginx-1.9.12\html
